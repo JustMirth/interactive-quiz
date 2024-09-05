@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <style>
+        h1{color:wheat}
+        p{color:silver}
+        h2{color:silver}
+        label{color:oldlace}
+        body{background-color: black;}
+    </style>
+</head>
+<body>
+    <h1>Welcome to a Simple Valorant Quiz</h1>
+    <p>Take your time and feel free to get help while answering questions about Valorant</p>
+    <form>
+        <!--Question 1-->
+        <h2>Which of these characters is falls under the role of "Initiator"?</h2>
+        <label><input type="radio" name="q1" value="a"> A) Viper</label><br>
+        <label><input type="radio" name="q1" value="b"> B) Raze</label><br>
+        <label><input type="radio" name="q1" value="c"> C) Gecko</label><br>
+        <label><input type="radio" name="q1" value="d"> D) Deadlock</label><br>
+        
+        <!--Question 2-->
+        <h2>Which of these maps was NOT added post launch?</h2>
+        <label><input type="radio" name="q2" value="a"> A) Ascent</label><br>
+        <label><input type="radio" name="q2" value="b"> B) Breeze</label><br>
+        <label><input type="radio" name="q2" value="c"> C) Abyss</label><br>
+        <label><input type="radio" name="q2" value="d"> D) Fracture</label><br>
+        
+        <!--Question 3-->
+        <h2>How much money does each player start with at the beginning of the first round?</h3>
+        <label><input type="number" name="q3"></label>
+        
+        <!--Question 4-->
+        <h2>What is the name of the most expensive gun?</h2>
+        <label><input type="text" name="q4"></label>
+        
+        <!--Question 5-->
+        <h2>Which of the following weapons have an Oni Skin? Select all that apply.</h2>
+        <label> <input type="checkbox" name="q5"> Outlaw</label>
+        <label> <input type="checkbox" name="q5"> Vandal</label>
+        <label> <input type="checkbox" name="q5"> Phantom</label>
+        <label> <input type="checkbox" name="q5"> Knife</label>
+
+        <!--Submit Button-->
+        <button type="submit">Submit Answers</button>
+    </form>
+    
+</body>
+</html>
